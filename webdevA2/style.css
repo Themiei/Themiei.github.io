@@ -449,7 +449,8 @@ body{
 #qrcode{
     width:100%;
     height:auto;
-    visibility:hidden;
+    visibility:visible;
+    z-index:50;
 }
 #finalnotes{
     display:inline-block;
@@ -494,7 +495,7 @@ body{
         margin-inline:auto;
     }
     #qrcode{
-        visibility:visible;
+        visibility:hidden;
     }
 
 }
