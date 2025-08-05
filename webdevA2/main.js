@@ -518,7 +518,7 @@ buttonsubmit.addEventListener("click", function(){
     randomwordgen();
 
     document.querySelector("#submissionarea").disabled = false;
-    document.querySelector("#submissionarea").reset();
+    document.querySelector("#submissionarea").value = " "
     wordinsert(wordselect);
 
 
